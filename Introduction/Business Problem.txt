@@ -1,0 +1,6 @@
+Hi All,
+
+The buisiness need here is to warn drivers driving along a route about accidents that can occur and also the severity of the accident. Here we will use a Machine learning model which can predict the severity of accident based on a variety of known variables like Location, Road condition, weather, Junction condition, car speed, number of people involved, light conditions, number of vehicles invloved in etc.. We will be using Data sources which is published by authentic agencies(eg. Gov authorities and NGOs), in short we are going to predict the severity of a traffic accident that can occur at a given place at a given point of circumstance.
+
+Thanks 
+Deepak G
