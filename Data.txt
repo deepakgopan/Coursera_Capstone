@@ -1,0 +1,14 @@
+The Data we are going to use would have 194673 data rows to train the model
+
+The csv can be downloaded from - https://s3.us.cloud-object-storage.appdomain.cloud/cf-courses-data/CognitiveClass/DP0701EN/version-2/Data-Collisions.csv
+
+The below listed are the data attributes that are available to us
+
+SEVERITYCODE	X	Y	OBJECTID	INCKEY	COLDETKEY	REPORTNO	STATUS	ADDRTYPE	INTKEY	LOCATION	EXCEPTRSNCODE	EXCEPTRSNDESC	SEVERITYCODE	SEVERITYDESC	COLLISIONTYPE	PERSONCOUNT	PEDCOUNT	PEDCYLCOUNT	VEHCOUNT	INCDATE	INCDTTM	JUNCTIONTYPE	SDOT_COLCODE	SDOT_COLDESC	INATTENTIONIND	UNDERINFL	WEATHER	ROADCOND	LIGHTCOND	PEDROWNOTGRNT	SDOTCOLNUM	SPEEDING	ST_COLCODE	ST_COLDESC	SEGLANEKEY	CROSSWALKKEY	HITPARKEDCAR
+
+Here SEVERITYCODE is the dependant variable(the value the model has to predict) and rest are the independant variables. The SEVERITYCODE is either 1 or 2. Here 1 means - Property Damage Only Collision(no humans got hurt) and 2 means - Injury Collision(someone got hurt)
+
+Please note that not all the columns are of interest to us. We are going to skim off some really deciding columns for our model prediction(eg- JUNCTIONTYPE, WEATHER, ROADCOND etc)
+
+
+
